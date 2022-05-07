@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+.ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.li {
+    list-style: none;
+    display: flex;
+    width: calc(120% / 8);
+    text-align: center;
+    color: white;
+}
+input{
+    background-color: #303141;
+    border: none;
+}
+.list{
+    width: 100%;
+}
+.list2{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav {
+    border: none;
+    background-color:#303141;
+}
+.menuheader{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.logomenu{
+    margin-left: 2%;
+    margin-top: 0%;
+    padding-right: 1%;
+    border-right: 1px solid white;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    font-weight: bold; 
+    color: #303141;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.btn:hover {
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.btn-primary{
+    background-color: #39E29D;
+    width: 10%;
+}
+.btn-ligth{
+    background-color: #363A4C;
+    color: #9496A0;
+    padding: 14px;
+}
+.btn-info{
+    background-color: #5762D5;
+    color: white;
+    
+}
+.icon-btn{
+    border-radius: 5px;   
+    padding: 5%;
+    background-color: #454DA8;
+    vertical-align: middle;
+}
+.menu{
+    display: none;
+}
+.usd{
+    margin-right: 5%;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+    .ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding: 1%;
+    }
+  }

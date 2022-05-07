@@ -1,0 +1,297 @@
+body{
+    background-image: url('../../images/osrs.webp');
+    background-size: 100%;
+}
+label{
+    width: 100%;
+}
+
+.container{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+.icon-rtl {
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    background-position: 7px 7px;
+}
+.label{
+    padding: 1%;
+    background-color: #303141;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-bottom: 1%; 
+}
+.input{
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    background-color: #3E4259;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+}
+.select{
+    padding: 1%;
+    background-color: #303141;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.input-group{
+    display: flex;
+}
+
+.items{
+    border: 1px solid #475778;
+    
+    border-radius: 10;
+    padding: 2.5%;
+    margin-bottom: 10%;
+    background-color: #303141;
+}
+.items-header{
+    display: flex;
+    justify-content: space-between;
+}
+.input > label{
+    display: flex;
+}
+.input > label > p {
+    font-size: 10px;
+}
+.items-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+.items-footer{
+    padding-top: 1%;
+    text-align: center;
+    align-items: center ;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.pages{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.pages > .btn{
+    padding: 1%;
+    margin: 0.5%;
+}
+.btn-traparent{
+    color: white;
+    background-color: #303141;
+}
+.btn-border{
+    border: 1px solid #5762D5;
+    background-color: #303141;
+    color: white;
+}
+.pays{
+    background-color: #2B2C3B;
+    padding: 2%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    font-size: 20px;
+}
+.card{
+    background-color: #323648;
+    border-radius: 5px;
+    padding: 2%;
+    transition: transform .2s; /* Animation */
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.card-header{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-between;
+}
+.product-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-description{
+    color: #91939C;
+}
+.card-footer{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-img > img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+}
+.product-logo{    
+    color: #39E29D;
+    border: 1px solid #39E29D;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
+}
+.icon-filter{
+    color:#39E29D;
+    padding: 3%;
+}
+.card:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+span{
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+span > p {
+    padding-right: 2%;
+}
+.discount{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+input[type=number]{
+    color: white;
+    padding: 10%;
+    border-radius: 5px;
+    background-color: #394057;
+    margin-left: 60%; 
+    height: 100%; 
+}
+
+.stock{
+    border-radius: 5px;
+    border: 1px solid #369577;
+    color: #369577;
+    width: 37%;
+    padding: 1%;
+    text-align: center;
+}
+.md-1{
+    width: 10%;
+}
+.md-2{
+    width: 20%;
+}
+.md-3{
+    width: 30%;
+}
+.md-4{
+    width: 40%;
+}
+.md-5{
+    width: 50%;
+}
+.md-6{
+    width: 60%;
+}
+.md-7{
+    width: 70%;
+}
+.md-8{
+    width: 80%;
+}
+.md-9{
+    width: 90%;
+}
+.md-10{
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+    .ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding: 1%;
+    }
+    .md-1 ,.md-2,.md-3,.md-4,.md-5,.md-6,.md-7,.md-8,.md-9,.md-10{
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    div .card{
+        width: 80%;
+        margin: 6%;
+    }
+    div .items-body{
+        width: 100%;
+        display: inline-block;
+    }
+    div .input-group{
+        display: inline-block;
+        width: 95%;
+    }
+    div .input-group > .input{ 
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+    div .items{
+        width: 100%;
+    }
+    div .info{
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+    }
+    div .social{
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+    }
+    div .pays > img{
+        height: 40px;
+    }
+    div .pays{
+        display: inline-block;
+        text-align: center;
+    }
+    body p{
+        font-size: 10px;
+    }
+    div .container{
+        width: 70%;
+    }
+    div .stock{}
+    
+  }
